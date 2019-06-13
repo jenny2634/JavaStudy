@@ -1,10 +1,17 @@
 package Baekjun;
 
+import java.util.Scanner;
+
 public class Main {
 	public static void main(String[] args) {
-		int n;
 		
-
+		Scanner s = new Scanner(System.in);
+		
+		while(s.hasNextLine()) {
+			String a = s.nextLine();
+			System.out.println(a);
+		}
+		
+	
 	}
-
 }
