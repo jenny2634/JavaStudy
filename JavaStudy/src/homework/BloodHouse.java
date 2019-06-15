@@ -1,4 +1,4 @@
-package ch07;
+package homework;
 
 public class BloodHouse {
 	public boolean isPossible(Human human) {
@@ -10,10 +10,13 @@ public class BloodHouse {
 	}
 
 	public String action(Human human) {
-		String result = ""; // 헌혈 결과 저장
-		/* isPossible() 메소드를 활용하여 헌혈 가능 여부를 확인하는 조건문 작성 */
-		/* 헌혈 가능 시 result = "헌혈이 완료되었습니다. XX님 감사합니다. */
-		/* 헌혈 불가 시 result = "헌혈이 불가능합니다. */
+		String result = "";
+		if(this.isPossible(human)) {
+			result = "헌혈이 완료되었습니다.\n" + human.getName() +"님 감사합니다";
+		}else {
+			result = "헌혈이 불가능합니다.";
+		}
+		
 		return result;
 	}
 }

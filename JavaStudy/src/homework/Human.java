@@ -1,4 +1,4 @@
-package ch07;
+package homework;
 
 public class Human {
 
