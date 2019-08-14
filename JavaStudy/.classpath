@@ -4,5 +4,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="C:/dev/mysql-connector-java-5.1.40.jar"/>
 	<classpathentry kind="lib" path="C:/dev/jxl.jar"/>
+	<classpathentry kind="lib" path="C:/dev/jsoup-1.12.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
