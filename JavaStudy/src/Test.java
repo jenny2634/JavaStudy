@@ -1,9 +1,24 @@
+import java.util.Scanner;
 
 public class Test {
 	// main 입력 후 Ctrl + Space
 	// Shift + ctrl+ c 주석처리(주석은 COMMENT)
 	// 화면 크게 ctrl + n
 	public static void main(String[] args) {
+
+		Scanner s = new Scanner(System.in);
+
+		// 0x100 0x100 [][][][][][]
+		int[] a = new int[3];
+		System.out.println(a.length);
+
+		// 자료형
+		// 이름 = 값 <== 초기화
+		int num = 123;
+		System.out.println("hello");
+		System.out.println("hello");
+		System.out.println(num);
+
 		// syso + ctrl + space 출력
 		/*
 		 * System.out.println(1+5); System.out.println("안녕하세요");
